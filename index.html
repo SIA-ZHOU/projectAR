@@ -7,11 +7,7 @@
     </script>
     <script src="https://raw.githack.com/AR-js-org/AR.js/3.4.5/aframe/build/aframe-ar.js">
     </script>
-    <script src="https://cdn.jsdelivr.net/npm/eruda"></script>
-    <script type="module" src="https://raw.githack.com/b2renger/microprojetar/main/lib/qrTunnel.js"></script>
-
 </head>
-
 
 <body style="margin : 0px; overflow: hidden;">
     <a-scene embedded
@@ -22,13 +18,10 @@
         displayWidth="1280" displayHeight="720">
 
         <a-marker type='barcode' value='0'>
-            <a-text value="Hello !" side="double" position="0 0 -1" rotation="270 0 0" width="8" color="red"
-                align="center">
-            </a-text>
+            <a-image src="another-image.png" width="1" height="1"></a-image>
         </a-marker>
 
         <a-entity camera></a-entity>
-
     </a-scene>
 </body>
 </html>
